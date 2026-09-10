@@ -1,0 +1,30 @@
+data_file: "../data/data-products/downloads/crab_3months_unbinned_data.fits.gz"
+ori_file: "../data/data-products/downloads/20280301_3_month.ori"
+unbinned_output: "fits"
+
+time_bins: 7202.125
+
+
+time_bins: 7202.125
+
+energy_bins:
+  - 100.0
+  - 158.489
+  - 251.189
+  - 398.107
+  - 630.957
+  - 1000.0
+  - 1584.89
+  - 2511.89
+  - 3981.07
+  - 6309.57
+  - 10000.0
+
+phi_pix_size: 5
+
+nside: 8
+
+scheme: "ring"
+
+tmin: 1835487684.5801868
+tmax: 1843466661.583874

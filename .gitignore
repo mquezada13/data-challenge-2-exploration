@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Downloaded / generated COSI data
+data/data-products/downloads/
+data/data-products/binned/
+data/backgrounds/downloads/
+data/backgrounds/binned/
+
+# Large scientific data files
+*.fits
+*.fits.gz
+*.h5
+*.hdf5
+*.zip
