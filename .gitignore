@@ -10,6 +10,9 @@ data/data-products/binned/
 data/backgrounds/downloads/
 data/backgrounds/binned/
 
+# My note/reports 
+notes/
+
 # Large scientific data files
 *.fits
 *.fits.gz
