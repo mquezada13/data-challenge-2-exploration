@@ -5,8 +5,6 @@ unbinned_output: "fits"
 time_bins: 7202.125
 
 
-time_bins: 7202.125
-
 energy_bins:
   - 100.0
   - 158.489

@@ -12,6 +12,7 @@ data/backgrounds/binned/
 
 # My note/reports 
 notes/
+plots/
 
 # Large scientific data files
 *.fits
