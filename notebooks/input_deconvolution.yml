@@ -1,0 +1,39 @@
+model_definition:
+  class: "AllSkyImage"
+
+  property:
+    coordinate: "galactic"
+    nside: 8
+    scheme: "ring"
+
+    energy_edges:
+      value: [251.189, 398.107]
+      unit: "keV"
+
+    unit: "cm-2 s-1 sr-1"
+
+  initialization:
+    algorithm: "flat"
+
+    parameter:
+      value: [0.01]
+      unit: "cm-2 s-1 sr-1"
+
+deconvolution:
+  algorithm: "RLadvanced"
+  parameter:
+    iteration_max: 150
+    acceleration:
+      activate: true
+      accel_factor_max: 10.0
+
+
+    # Optimize the background normalization during reconstruction.
+    background_normalization_optimization:
+      activate: true
+      range: {"total_background":[0.01,10.0]}
+
+    # Stop when the improvement in log-likelihood becomes very small.
+    stopping_criteria:
+      statistics: "log-likelihood"
+      threshold: 0.01
